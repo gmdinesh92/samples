@@ -34,5 +34,14 @@
     }
   ],
   "start_url": "./index.html",
-  "display": "standalone"
+  "display": "standalone",
+  "prefer_related_applications": true,
+  "short_name": "Trips",
+  "name": "Google trips",
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.google.android.apps.travel.onthego"
+    }
+  ]
 }
